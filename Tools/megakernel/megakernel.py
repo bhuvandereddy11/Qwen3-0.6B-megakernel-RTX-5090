@@ -1,21 +1,3 @@
-"""
-megakernel_server.py — OpenAI-compatible HTTP server backed by the Qwen megakernel.
-
-Optimisations vs original:
-  OPT 1  — Single tokenizer.encode() per request (original called it 3x)
-  OPT 2  — _gen op lookup cached on Decoder.__init__
-  OPT 3  — Partial KV-cache reset: zero only positions written, not full 235MB
-  OPT 4  — prompt_tokens / output_tokens returned from generate(), no re-encode
-  OPT 5  — run_in_executor: GPU work offloaded, event loop stays free
-  OPT 6  — tokenizer.encode() inside executor thread (overlaps with async I/O)
-  OPT 7  — uuid4() replaced with incrementing counter (~0.1ms saved)
-  OPT 8  — time.time() cached per-second (~0.05ms saved)
-  OPT 9  — ORJSONResponse: 2-4x faster JSON serialization than stdlib
-  OPT 10 — access_log=False: no file write per request
-  OPT 11 — asyncio.get_running_loop() replaces deprecated get_event_loop()
-  OPT 12 — _build_prompt() moved inside executor thread, off the event loop
-"""
-
 import asyncio
 import os
 import time
@@ -55,10 +37,10 @@ app = FastAPI(title="Qwen Megakernel Server", default_response_class=ORJSONRespo
 decoder   = None
 _executor = ThreadPoolExecutor(max_workers=1)
 
-# OPT 7: counter instead of uuid4()
+# counter instead of uuid4()
 _req_counter = itertools.count(1)
 
-# OPT 8: cached timestamp
+# cached timestamp
 _cached_ts    = int(time.time())
 _cached_ts_at = time.monotonic()
 
@@ -109,27 +91,18 @@ async def models():
 
 
 def _build_prompt(messages: list[Message]) -> str:
-    # OPT 12: called inside executor thread, not on the event loop
-    # Use Qwen3 chat template so <|im_end|> (token 151645) triggers EOS.
-    # Append closed <think> block to suppress chain-of-thought reasoning.
     import re as _re
     msgs = [{"role": m.role, "content": m.content} for m in messages]
     prompt = decoder.tokenizer.apply_chat_template(
         msgs, tokenize=False, add_generation_prompt=True
     )
-    # Strip any empty think block the template injects, then re-add it closed
-    # so the model skips thinking and answers directly.
+
     prompt = _re.sub(r'<think>.*?</think>\n*', '', prompt, flags=_re.DOTALL)
     prompt = prompt.rstrip() + '\n<think>\n\n</think>\n\n'
     return prompt
 
 
 def _run_generate(messages: list[Message], max_tok: int):
-    """
-    All blocking work runs here — inside the thread-pool executor.
-    OPT 12: prompt building moved here so the event loop is free during it.
-    OPT 6:  tokenizer.encode() happens inside generate(), also here.
-    """
     prompt = _build_prompt(messages)
     return decoder.generate(prompt, max_tokens=max_tok)
 
@@ -142,8 +115,6 @@ async def chat_completions(req: ChatRequest):
     max_tok = req.max_tokens or MAX_TOKENS
 
     try:
-        # OPT 11: get_running_loop() is faster than deprecated get_event_loop()
-        # OPT 12: pass messages directly — prompt building happens in executor
         loop = asyncio.get_running_loop()
         answer, prompt_tokens, output_tokens = await loop.run_in_executor(
             _executor, _run_generate, req.messages, max_tok
@@ -177,5 +148,5 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=PORT,
         log_level="warning",
-        access_log=False,   # OPT 10: no file write per request
+        access_log=False,
     )
