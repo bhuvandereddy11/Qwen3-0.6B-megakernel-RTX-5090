@@ -20,10 +20,12 @@ setup(
         CUDAExtension(
             name="qwen_megakernel_C",
             sources=[
-                "qwen_ops.cpp",
-                "megakernel_5090.cu",
+                "/workspace/Qwen3-0.6B-megakernel-RTX-5090/Tools/megakernel/qwen_ops.cpp",
+                "/workspace/Qwen3-0.6B-megakernel-RTX-5090/Tools/megakernel/megakernel_5090.cu",
             ],
             include_dirs=[
+                "/workspace/Qwen3-0.6B-megakernel-RTX-5090/Tools/rmsnorm",
+                "/workspace/Qwen3-0.6B-megakernel-RTX-5090/Tools/swiglu",
                 ".",
             ],
             extra_compile_args={
