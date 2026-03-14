@@ -1,0 +1,1015 @@
+{
+  "isl_target": 500,
+  "avg_input_tokens": 649.6,
+  "max_tokens": 128,
+  "host": "http://localhost:8001",
+  "requests": 100,
+  "avg_latency_s": 0.1515,
+  "median_latency_s": 0.1017,
+  "std_latency_s": 0.1127,
+  "min_latency_s": 0.0674,
+  "max_latency_s": 0.6423,
+  "throughput_rps": 6.602,
+  "results": [
+    {
+      "request_id": 1,
+      "question": "What is the capital of Norway?",
+      "latency_s": 0.3012,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 2,
+      "question": "Who was the third German king of Bavaria?",
+      "latency_s": 0.1158,
+      "prompt_tokens": 652,
+      "completion_tokens": 15,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 3,
+      "question": "Explain the theory of relativity in simple terms.",
+      "latency_s": 0.5266,
+      "prompt_tokens": 652,
+      "completion_tokens": 76,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 4,
+      "question": "What is the speed of light in a vacuum?",
+      "latency_s": 0.1777,
+      "prompt_tokens": 652,
+      "completion_tokens": 24,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 5,
+      "question": "Who wrote the novel Moby Dick?",
+      "latency_s": 0.1288,
+      "prompt_tokens": 650,
+      "completion_tokens": 17,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 6,
+      "question": "What year did World War II end?",
+      "latency_s": 0.1089,
+      "prompt_tokens": 650,
+      "completion_tokens": 14,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 7,
+      "question": "What is the chemical formula for water?",
+      "latency_s": 0.102,
+      "prompt_tokens": 650,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 8,
+      "question": "Who painted the Mona Lisa?",
+      "latency_s": 0.1096,
+      "prompt_tokens": 648,
+      "completion_tokens": 14,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 9,
+      "question": "What is the largest planet in the solar system?",
+      "latency_s": 0.0901,
+      "prompt_tokens": 652,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 10,
+      "question": "Who developed the theory of general relativity?",
+      "latency_s": 0.1018,
+      "prompt_tokens": 651,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 11,
+      "question": "What is the boiling point of water in Celsius?",
+      "latency_s": 0.103,
+      "prompt_tokens": 652,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 12,
+      "question": "What is the capital of Japan?",
+      "latency_s": 0.071,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 13,
+      "question": "Who was the first person to walk on the moon?",
+      "latency_s": 0.1036,
+      "prompt_tokens": 653,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 14,
+      "question": "What is the square root of 144?",
+      "latency_s": 0.1095,
+      "prompt_tokens": 653,
+      "completion_tokens": 14,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 15,
+      "question": "Who invented the telephone?",
+      "latency_s": 0.0808,
+      "prompt_tokens": 647,
+      "completion_tokens": 10,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 16,
+      "question": "What is the longest river in the world?",
+      "latency_s": 0.1423,
+      "prompt_tokens": 651,
+      "completion_tokens": 19,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 17,
+      "question": "What is the capital of Australia?",
+      "latency_s": 0.0686,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 18,
+      "question": "Who wrote Romeo and Juliet?",
+      "latency_s": 0.318,
+      "prompt_tokens": 648,
+      "completion_tokens": 45,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 19,
+      "question": "What is the hardest natural substance on Earth?",
+      "latency_s": 0.0936,
+      "prompt_tokens": 651,
+      "completion_tokens": 12,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 20,
+      "question": "What is the smallest country in the world?",
+      "latency_s": 0.1083,
+      "prompt_tokens": 651,
+      "completion_tokens": 14,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 21,
+      "question": "Who was the first President of the United States?",
+      "latency_s": 0.0947,
+      "prompt_tokens": 652,
+      "completion_tokens": 12,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 22,
+      "question": "What is the currency of Japan?",
+      "latency_s": 0.075,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 23,
+      "question": "What is the tallest mountain in the world?",
+      "latency_s": 0.1288,
+      "prompt_tokens": 651,
+      "completion_tokens": 17,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 24,
+      "question": "Who discovered penicillin?",
+      "latency_s": 0.0817,
+      "prompt_tokens": 648,
+      "completion_tokens": 10,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 25,
+      "question": "What is the atomic number of carbon?",
+      "latency_s": 0.0805,
+      "prompt_tokens": 650,
+      "completion_tokens": 10,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 26,
+      "question": "What language is spoken in Brazil?",
+      "latency_s": 0.1217,
+      "prompt_tokens": 649,
+      "completion_tokens": 16,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 27,
+      "question": "What is the capital of Canada?",
+      "latency_s": 0.0689,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 28,
+      "question": "Who invented the light bulb?",
+      "latency_s": 0.095,
+      "prompt_tokens": 648,
+      "completion_tokens": 12,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 29,
+      "question": "What is the distance from Earth to the Sun?",
+      "latency_s": 0.1967,
+      "prompt_tokens": 652,
+      "completion_tokens": 27,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 30,
+      "question": "Who composed Beethoven's Fifth Symphony?",
+      "latency_s": 0.1424,
+      "prompt_tokens": 650,
+      "completion_tokens": 19,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 31,
+      "question": "What is the capital of Germany?",
+      "latency_s": 0.0678,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 32,
+      "question": "What is the largest ocean on Earth?",
+      "latency_s": 0.089,
+      "prompt_tokens": 650,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 33,
+      "question": "Who was Napoleon Bonaparte?",
+      "latency_s": 0.3719,
+      "prompt_tokens": 649,
+      "completion_tokens": 53,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 34,
+      "question": "What is the powerhouse of the cell?",
+      "latency_s": 0.0884,
+      "prompt_tokens": 650,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 35,
+      "question": "What is the capital of France?",
+      "latency_s": 0.0677,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 36,
+      "question": "Who wrote 1984?",
+      "latency_s": 0.3101,
+      "prompt_tokens": 650,
+      "completion_tokens": 44,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 37,
+      "question": "What is the chemical symbol for gold?",
+      "latency_s": 0.0878,
+      "prompt_tokens": 650,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 38,
+      "question": "How many continents are there on Earth?",
+      "latency_s": 0.075,
+      "prompt_tokens": 650,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 39,
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "latency_s": 0.1221,
+      "prompt_tokens": 653,
+      "completion_tokens": 16,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 40,
+      "question": "What is the capital of Brazil?",
+      "latency_s": 0.0765,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 41,
+      "question": "What is photosynthesis?",
+      "latency_s": 0.3913,
+      "prompt_tokens": 647,
+      "completion_tokens": 56,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 42,
+      "question": "Who invented the internet?",
+      "latency_s": 0.1692,
+      "prompt_tokens": 647,
+      "completion_tokens": 23,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 43,
+      "question": "What is the largest continent by area?",
+      "latency_s": 0.0753,
+      "prompt_tokens": 650,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 44,
+      "question": "What is the capital of China?",
+      "latency_s": 0.0691,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 45,
+      "question": "Who was Julius Caesar?",
+      "latency_s": 0.2971,
+      "prompt_tokens": 647,
+      "completion_tokens": 42,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 46,
+      "question": "What is the Pythagorean theorem?",
+      "latency_s": 0.6423,
+      "prompt_tokens": 650,
+      "completion_tokens": 93,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 47,
+      "question": "What is the capital of India?",
+      "latency_s": 0.0759,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 48,
+      "question": "Who wrote the Harry Potter series?",
+      "latency_s": 0.1016,
+      "prompt_tokens": 649,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 49,
+      "question": "What is the melting point of iron in Celsius?",
+      "latency_s": 0.1157,
+      "prompt_tokens": 652,
+      "completion_tokens": 15,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 50,
+      "question": "What is the capital of Russia?",
+      "latency_s": 0.068,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 51,
+      "question": "Who discovered gravity?",
+      "latency_s": 0.1209,
+      "prompt_tokens": 646,
+      "completion_tokens": 16,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 52,
+      "question": "What is the capital of Italy?",
+      "latency_s": 0.0677,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 53,
+      "question": "What is the primary gas in Earth's atmosphere?",
+      "latency_s": 0.0879,
+      "prompt_tokens": 652,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 54,
+      "question": "Who built the Great Wall of China?",
+      "latency_s": 0.1014,
+      "prompt_tokens": 650,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 55,
+      "question": "What is the capital of Spain?",
+      "latency_s": 0.069,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 56,
+      "question": "How many bones are in the adult human body?",
+      "latency_s": 0.106,
+      "prompt_tokens": 652,
+      "completion_tokens": 13,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 57,
+      "question": "Who was Cleopatra?",
+      "latency_s": 0.3914,
+      "prompt_tokens": 648,
+      "completion_tokens": 56,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 58,
+      "question": "What is the capital of Egypt?",
+      "latency_s": 0.0681,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 59,
+      "question": "What is the speed of sound in air at sea level?",
+      "latency_s": 0.1764,
+      "prompt_tokens": 654,
+      "completion_tokens": 24,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 60,
+      "question": "Who invented the steam engine?",
+      "latency_s": 0.0951,
+      "prompt_tokens": 648,
+      "completion_tokens": 12,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 61,
+      "question": "What is the capital of Mexico?",
+      "latency_s": 0.0751,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 62,
+      "question": "What is DNA and what does it do?",
+      "latency_s": 0.3239,
+      "prompt_tokens": 651,
+      "completion_tokens": 46,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 63,
+      "question": "Who was Albert Einstein?",
+      "latency_s": 0.3181,
+      "prompt_tokens": 647,
+      "completion_tokens": 45,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 64,
+      "question": "What is the capital of South Korea?",
+      "latency_s": 0.075,
+      "prompt_tokens": 650,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 65,
+      "question": "What is the largest desert in the world?",
+      "latency_s": 0.0941,
+      "prompt_tokens": 651,
+      "completion_tokens": 12,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 66,
+      "question": "Who wrote the Iliad?",
+      "latency_s": 0.0801,
+      "prompt_tokens": 649,
+      "completion_tokens": 10,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 67,
+      "question": "What is the capital of Argentina?",
+      "latency_s": 0.0743,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 68,
+      "question": "What is the function of the kidney in the human body?",
+      "latency_s": 0.222,
+      "prompt_tokens": 654,
+      "completion_tokens": 31,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 69,
+      "question": "Who was Isaac Newton?",
+      "latency_s": 0.2156,
+      "prompt_tokens": 647,
+      "completion_tokens": 30,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 70,
+      "question": "What is the capital of Nigeria?",
+      "latency_s": 0.0739,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 71,
+      "question": "What is the cruising speed of a commercial airplane?",
+      "latency_s": 0.357,
+      "prompt_tokens": 652,
+      "completion_tokens": 51,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 72,
+      "question": "Who invented the printing press?",
+      "latency_s": 0.0814,
+      "prompt_tokens": 648,
+      "completion_tokens": 10,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 73,
+      "question": "What is the capital of Turkey?",
+      "latency_s": 0.0674,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 74,
+      "question": "What is the theory of evolution?",
+      "latency_s": 0.2233,
+      "prompt_tokens": 649,
+      "completion_tokens": 31,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 75,
+      "question": "Who was Marie Curie?",
+      "latency_s": 0.2827,
+      "prompt_tokens": 648,
+      "completion_tokens": 40,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 76,
+      "question": "What is the capital of Saudi Arabia?",
+      "latency_s": 0.0744,
+      "prompt_tokens": 650,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 77,
+      "question": "What is the chemical symbol for silver?",
+      "latency_s": 0.0889,
+      "prompt_tokens": 650,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 78,
+      "question": "Who was Genghis Khan?",
+      "latency_s": 0.2095,
+      "prompt_tokens": 649,
+      "completion_tokens": 29,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 79,
+      "question": "What is the capital of Indonesia?",
+      "latency_s": 0.0685,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 80,
+      "question": "What is the function of the heart?",
+      "latency_s": 0.1897,
+      "prompt_tokens": 650,
+      "completion_tokens": 26,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 81,
+      "question": "Who was Leonardo da Vinci?",
+      "latency_s": 0.3768,
+      "prompt_tokens": 648,
+      "completion_tokens": 54,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 82,
+      "question": "What is the capital of Pakistan?",
+      "latency_s": 0.0678,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 83,
+      "question": "What is the largest mammal on Earth?",
+      "latency_s": 0.0959,
+      "prompt_tokens": 651,
+      "completion_tokens": 12,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 84,
+      "question": "Who wrote Don Quixote?",
+      "latency_s": 0.1562,
+      "prompt_tokens": 649,
+      "completion_tokens": 21,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 85,
+      "question": "What is the capital of the Netherlands?",
+      "latency_s": 0.0742,
+      "prompt_tokens": 650,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 86,
+      "question": "What is the rotational speed of the Earth?",
+      "latency_s": 0.1887,
+      "prompt_tokens": 651,
+      "completion_tokens": 26,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 87,
+      "question": "Who was Socrates?",
+      "latency_s": 0.2896,
+      "prompt_tokens": 647,
+      "completion_tokens": 41,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 88,
+      "question": "What is the capital of Sweden?",
+      "latency_s": 0.0685,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 89,
+      "question": "What is the chemical symbol for iron?",
+      "latency_s": 0.0887,
+      "prompt_tokens": 650,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 90,
+      "question": "Who was Nikola Tesla?",
+      "latency_s": 0.1961,
+      "prompt_tokens": 647,
+      "completion_tokens": 27,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 91,
+      "question": "What is the capital of Poland?",
+      "latency_s": 0.0687,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 92,
+      "question": "What is the largest organ in the human body?",
+      "latency_s": 0.1151,
+      "prompt_tokens": 652,
+      "completion_tokens": 15,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 93,
+      "question": "Who invented the airplane?",
+      "latency_s": 0.1761,
+      "prompt_tokens": 647,
+      "completion_tokens": 24,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 94,
+      "question": "What is the capital of Ukraine?",
+      "latency_s": 0.0758,
+      "prompt_tokens": 649,
+      "completion_tokens": 9,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 95,
+      "question": "What is the Big Bang theory?",
+      "latency_s": 0.2578,
+      "prompt_tokens": 649,
+      "completion_tokens": 36,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 96,
+      "question": "Who was Charles Darwin?",
+      "latency_s": 0.3923,
+      "prompt_tokens": 647,
+      "completion_tokens": 56,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 97,
+      "question": "What is the capital of Greece?",
+      "latency_s": 0.069,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 98,
+      "question": "What is the chemical symbol for sodium?",
+      "latency_s": 0.0886,
+      "prompt_tokens": 650,
+      "completion_tokens": 11,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 99,
+      "question": "Who was Aristotle?",
+      "latency_s": 0.3455,
+      "prompt_tokens": 646,
+      "completion_tokens": 49,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    },
+    {
+      "request_id": 100,
+      "question": "What is the capital of Portugal?",
+      "latency_s": 0.0691,
+      "prompt_tokens": 649,
+      "completion_tokens": 8,
+      "isl_target": 500,
+      "max_tokens": 128,
+      "host": "http://localhost:8001"
+    }
+  ]
+}
